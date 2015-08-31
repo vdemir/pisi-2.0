@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Pardus Desktop Services
+# PisiLinux Desktop Services
 # Copyright (C) 2010, TUBITAK/UEKAE
 # 2010 - Gökmen Göksel <gokmen:pardus.org.tr>
 # 2011 - Comak Developers <comak:pardus.org.tr>
@@ -11,15 +11,15 @@
 # Software Foundation; either version 2 of the License, or (at your option)
 # any later version.
 
-# Pardus Desktop Services
+# PisiLinux Desktop Services
 from os import path
 from os import getenv
 from glob import glob
 
-# PyQt4 Core Libraries
-from PyQt4.QtCore import QFile, QFileInfo, QString, QDir, QSize, QSettings, Qt
-from PyQt4.QtGui import QPixmap, QPixmapCache, QIcon, QPainter
-from PyQt4 import QtNetwork
+# PyQt5 Core Libraries
+from PyQt5.QtCore import QFile, QFileInfo, QDir, QSize, QSettings, Qt
+from PyQt5.QtGui import QPixmap, QPixmapCache, QIcon, QPainter
+from PyQt5.QtNetwork import *
 
 # Logging
 import logging
@@ -58,7 +58,7 @@ class QIconLoader:
 
         # Get possible Data Directories
         dataDirs = QFile.decodeName(getenv('XDG_DATA_DIRS'))
-        if dataDirs.isEmpty():
+        if dataDirs != "":
             dataDirs = QString('/usr/local/share/:/usr/share/')
 
         dataDirs.prepend(QDir.homePath() + ":")

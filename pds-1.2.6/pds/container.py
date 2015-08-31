@@ -13,7 +13,7 @@
 # any later version.
 
 # Qt Libraries
-from PyQt4 import Qt
+from PyQt5 import Qt
 
 class PApplicationContainer(Qt.QX11EmbedContainer):
     def __init__(self, parent = None, process = None, args = ()):

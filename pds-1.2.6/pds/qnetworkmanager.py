@@ -15,8 +15,8 @@ import dbus
 from dbus.mainloop.qt import DBusQtMainLoop
 
 # Qt Libraries
-from PyQt4 import QtGui
-from PyQt4.QtCore import *
+from PyQt5 import QtGui
+from PyQt5.QtCore import *
 
 # UI
 from pds.ui.ui_connectionitem import Ui_ConnectionItem

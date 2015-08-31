@@ -20,8 +20,8 @@ from os import popen
 import piksemel
 import gettext
 
-# PyQt4 Core Libraries
-from PyQt4.QtCore import QSettings
+# PyQt5 Core Libraries
+from PyQt5.QtCore import QSettings
 
 # Logging
 import logging
@@ -31,7 +31,7 @@ from pds.environments import *
 
 class Pds:
 
-    SupportedDesktops = (DefaultDe, Kde4, Kde3, Xfce, Enlightenment, LXDE,
+    SupportedDesktops = (DefaultDe, Kde5, Kde4, Kde3, Xfce, Enlightenment, LXDE,
                         Fluxbox, Gnome, Gnome3)
 
     def __init__(self, catalogName='', debug=False):

@@ -9,8 +9,8 @@
 # Software Foundation; either version 2 of the License, or (at your option)
 # any later version.
 
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
 
 from pds.qpagewidget import QPageWidget
 

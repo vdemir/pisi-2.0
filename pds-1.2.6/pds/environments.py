@@ -27,6 +27,21 @@ class DefaultDe(object):
     ExtraDirs            = None
     IconKey              = None
     i18n                 = staticmethod(lambda x: x)
+    
+    
+class Kde5(DefaultDe):
+    Name                 = 'kde'
+    SessionTypes         = ('kde-plasma')
+    Version              = '5'
+    VersionKey           = 'KDE_SESSION_VERSION'
+    ConfigPath           = ('$HOME/.kde5/', '$HOME/.kde/')
+    ConfigFile           = '/usr/share/config'
+    ConfigType           = 'ini'
+    ConfigBin            = 'kde5-config'
+    DefaultIconFile      = '/usr/share/icons/default.kde5'
+    DefaultIconTheme     = 'breeze'
+    IconKey              = 'Icons/Theme'
+
 
 class Kde4(DefaultDe):
     Name                 = 'kde'

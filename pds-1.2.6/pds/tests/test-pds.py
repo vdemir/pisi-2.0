@@ -13,7 +13,7 @@
 import pds
 
 from time import time
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 from pds.qiconloader import QIconLoader
 
 class Ui_Test(object):

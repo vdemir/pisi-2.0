@@ -12,9 +12,9 @@
 # Software Foundation; either version 2 of the License, or (at your option)
 # any later version.
 
-from PyQt4.QtCore import SIGNAL
-from PyQt4.QtCore import SLOT
-from PyQt4.QtCore import QThread
+from PyQt5.QtCore import SIGNAL
+from PyQt5.QtCore import SLOT
+from PyQt5.QtCore import QThread
 
 class PThread(QThread):
     def __init__(self, parent, action, callback=None, \

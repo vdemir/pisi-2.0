@@ -12,7 +12,7 @@
 # any later version.
 
 # Qt Libraries
-from PyQt4 import Qt
+from PyQt5 import Qt
 
 # PDS Container
 from pds.container import PApplicationContainer

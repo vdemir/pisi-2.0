@@ -3,11 +3,11 @@
 # Form implementation generated from reading ui file 'pds/gui.ui'
 #
 # Created: Wed Nov 10 22:08:17 2010
-#      by: PyQt4 UI code generator 4.8.1
+#      by: PyQt5 UI code generator 4.8.1
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -167,7 +167,7 @@ class Ui_PdsTest(object):
         self.hideButton.setText(QtGui.QApplication.translate("PdsTest", "Hide Message", None, QtGui.QApplication.UnicodeUTF8))
         self.target.setTitle(QtGui.QApplication.translate("PdsTest", "PDS Parent Widget", None, QtGui.QApplication.UnicodeUTF8))
 
-from PyQt4 import QtWebKit
+from PyQt5 import QtWebKit
 
 if __name__ == "__main__":
     import sys

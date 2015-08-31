@@ -9,7 +9,7 @@
 # Software Foundation; either version 2 of the License, or (at your option)
 # any later version.
 
-from PyQt4 import QtCore, QtGui
+from PyQt5 import QtCore, QtGui
 from pds.gui import *
 from pds.tests.ui_gui import Ui_PdsTest
 
